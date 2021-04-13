@@ -16,40 +16,121 @@
   <link href='https://fonts.googleapis.com/css?family=Amita:400,700' rel='stylesheet' type='text/css'>
   <link rel="stylesheet" href="css/ionicons.min.css">
   <link rel="stylesheet"href="css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet">
   <link rel="stylesheet" type="text/css" href="css/bootstrap.min.css">
-   <link rel="stylesheet" type="text/css" href="css/main.css">
+  <link rel="stylesheet" type="text/css" href="css/main.css">
 </head>
 <body>
-    <div>
-      <table >
-        <h1 style="padding: 4% 0 2% 4%;">DATOS PERSONALES</h1>
-        <tr>
-          <td style="width: 50%;margin:auto;padding-left: 10%;">
-            <ul><li>NOMBRE:</li>
-              <ul><li class="color">MARILYN YUDY</li></ul>
-            </ul> 
-            <ul><li>APELLIDOS:</li>
-              <ul><li class="color">QUISPE TICONA</li></ul>
-            </ul> 
-            <ul><li>CARRERA:</li>
-              <ul><li class="color">INGENIERIA DE SISTEMAS </li></ul>
-            </ul>
-            <ul><li>CURSO:</li>
-              <ul><li class="color">TALLER DE PROGRAMACION WEB </li></ul>
-            </ul>
-            <ul><li>CICLO:</li>
-              <ul><li class="color">6TO CICLO</li></ul>
-            </ul> 
-            <ul><li>AÑO:</li>
-              <ul><li class="color">2021</li></ul>
-            </ul>
-           </td>
-           <td>
-             <img style="width: 50%;" src="images/marilyn.jpeg">
-           </td>
-        </tr>
-      </table>
-      
-    </div>
+  <!--menu-->
+    <header class="menu px-3 py-2 bg-dark text-white">
+      <div class="container">
+        <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
+          <a href="/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
+            <svg class="bi me-2" width="40" height="32"><use xlink:href="#bootstrap"></use></svg>
+          </a>
+    
+          <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
+            <li>
+              <a href="#Inicio" class="nav-link text-secondary">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#home"></use></svg>
+                Inicio
+              </a>
+            </li>
+            <li>
+              <a href="#Sobre_mi" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#speedometer2"></use></svg>
+                Sobre mi
+              </a>
+            </li>
+            <li>
+              <a href="#Portafolio" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#table"></use></svg>
+                Portafolio
+              </a>
+            </li>
+            <li>
+              <a href="#Habilidades" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#grid"></use></svg>
+                Habilidades
+              </a>
+            </li>
+            <li>
+              <a href="#Contactos" class="nav-link text-white">
+                <svg class="bi d-block mx-auto mb-1" width="24" height="24"><use xlink:href="#people-circle"></use></svg>
+                Contactos
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </header>
+    <section id="Inicio">
+      <div class="Inicio_header">
+      </div>
+    </section>
+    <section id="Sobre_mi">
+      <div>
+        <table >
+          <h1 clas="titulo_style"style="padding: 4% 0 2% 4%;">DATOS PERSONALES</h1>
+          <tr>
+            <td style="width: 50%;margin:auto;padding-left: 10%;">
+              <ul><li>NOMBRE:</li>
+                <ul><li class="color">MARILYN YUDY</li></ul>
+              </ul> 
+              <ul><li>APELLIDOS:</li>
+                <ul><li class="color">QUISPE TICONA</li></ul>
+              </ul> 
+              <ul><li>CARRERA:</li>
+                <ul><li class="color">INGENIERIA DE SISTEMAS </li></ul>
+              </ul>
+              <ul><li>CURSO:</li>
+                <ul><li class="color">TALLER DE PROGRAMACION WEB </li></ul>
+              </ul>
+              <ul><li>CICLO:</li>
+                <ul><li class="color">6TO CICLO</li></ul>
+              </ul> 
+              <ul><li>AÑO:</li>
+                <ul><li class="color">2021</li></ul>
+              </ul>
+             </td>
+             <td>
+               <img style="width: 50%;" src="images/marilyn.jpeg">
+             </td>
+          </tr>
+        </table>
+        
+      </div>
+    </section>
+    <section id="Portafolio">
+      <h1>PORTAFOLIO</h1>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ulfeM8JGq7s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+    <section id="Contactos">
+      <h1>CONTACTOS</h1>
+      <fieldset class="contactos">
+        <legend>
+          <strong>Mensaje</strong>
+        </legend>
+        <p>Nombre:
+          <br>
+          <input type="text" placeholder="Ingrese su Nombre" size="50">
+        </p>
+        <p>Correo:
+          <br>
+          <input type="text" placeholder="Ingrese su correo" size="50">
+        </p>
+        <p>Asunto:
+          <br>
+          <input type="text" placeholder="Ingrese el asunto" size="50">
+        </p>
+        <p>Mensaje: 
+          <br>
+        </p>
+        <textarea name="" id="" cols="53" rows="5"></textarea>
+        <input type='submit' value='Envia Mensaje'>
+    </fieldset>
+    </section>
+    
 </body>
 </html>
