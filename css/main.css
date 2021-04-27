@@ -1,3 +1,9 @@
+.col
+{
+    background: #04B4AE;
+    border:solid 1px white;
+    height: 100px;
+}
 
 /*----------------menu-------------*/
 .menu
@@ -5,6 +11,16 @@
  background-color:#c00453 !important;
 }
 /*---------------SECCION inicio------------*/
+.Inicio{
+    width: 100%;
+    height: auto;
+    background-color:#04B4AE;
+    margin:0;
+    border-radius: 0;
+    z-index:5;
+    padding: 0;
+    opacity: 0.9;
+}
 .Inicio_header
 {
     background: url(../images/portada_2.jpg) 100% 100%;
@@ -21,7 +37,63 @@ h1
 {
     margin: 5%;
 }
+.hr-title
+{
+    border: 3px solid #666;
+    border-radius: 300px/10px;
+    height: 0px;
+    text-align: center;
+    margin: 30px 15px 70px
+}
+.style-title
+{    font: bold 65px 60px;
+     color: #eee;
+}
+.mensaje
+{
+    padding:70px 0px;
+    background: url(../images/mensajes.jpg) no-repeat center center fixed;
+    background-size: cover;
+    -moz-background-size: cover;
+    -webkit-background-size: cover;
+    -o-background-size: cover;
+}
 .contactos
 {
     margin: 0 30%;
+}
+.cursos
+{
+    height: auto;
+}
+.titulo
+{
+    text-align: center;
+    font-family: 'Zen Dots', cursive;
+    padding-top: 50px;
+    color:#d40221;
+}
+.cursos>img
+{
+    width:20%;
+    left: 70%;
+    top:220px;
+    position:absolute;
+
+}
+.lista
+{
+    padding-top:50px;
+}
+hr 
+{
+    border: 3px solid #922B21; 
+    border-radius: 300px/10px; 
+    width: 90%;
+    height: 0px; 
+    text-align:right;
+}
+b{
+    position: relative;
+    top: 20px;
 }
